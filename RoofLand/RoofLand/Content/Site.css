@@ -65,10 +65,9 @@ a.logo:hover {
 /* main logo including fade in effect  */
 .logo {
     font-family: Forte;
-    font-size: 90px;
+    font-size: 85px;
     color: white;
     margin-top: 25px;
-    text-align: center;
      -webkit-animation: fadein 3s; /* Safari and Chrome */
     -moz-animation: fadein 2s; /* Firefox */
     -ms-animation: fadein 2s; /* Internet Explorer */
