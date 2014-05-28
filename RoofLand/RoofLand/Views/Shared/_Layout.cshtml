@@ -17,14 +17,28 @@
                     <span class="icon-bar"></span>
                 </button>
 
+                @* TODO -black text link after effect, center text, make width smaller, check for extra effect after load*@
+                <section class="bgcolor">
+                    <nav class="cl-effect">
+                        <a href="#"><span data-hover="צור קשר">צור קשר</span></a>
+                        <a href="#"><span data-hover="מי אנחנו">מי אנחנו</span></a>
+                        <a href="#"><span data-hover="קישור 1">קישור 1</span></a>
+                        <a href="#"><span data-hover="קישור 2">קישור 2</span></a>
+                        <span data-hover="מי אנחנו"> @Html.ActionLink("מי אנחנו", "About", "Home", new { @class="a-Hover"})</span>
+                    </nav>
+                </section>
+
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink("מי אנחנו", "About", "Home")</li>
-                    <li>@Html.ActionLink("צור קשר", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("עמוד הבית", "Index", "Home")</li>
-                </ul>
-            </div>
+            @*
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>@Html.ActionLink("מי אנחנו", "About", "Home")</li>
+                        <li>@Html.ActionLink("צור קשר", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("עמוד הבית", "Index", "Home")</li>
+                    </ul>
+                </div>
+
+            *@
         </div>
     </div>
     <div class="container body-content">

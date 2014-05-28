@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+   
     background-color: black;
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -moz-animation: fadein 2s; /* Firefox */
@@ -12,7 +13,7 @@
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;    
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -33,28 +34,28 @@ a.logo:hover {
     color: #E6E6E6;
 }
 
-.nav,.navbar-nav, .navbar,.navbar-fixed-top,.container{
-    background-color:black;
-    color:white;
+.nav, .navbar-nav, .navbar, .navbar-fixed-top, .container {
+    background-color: black;
+    color: white;
 }
 
-#contact_us{
-    margin-top:150px;
-    color:white;
-    font-size:20px;
+#contact_us {
+    margin-top: 150px;
+    color: white;
+    font-size: 20px;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    color:white;
+    color: white;
 }
 
 .landing_slog {
     text-align: center;
     color: white;
-    font-size:25px;
+    font-size: 25px;
     -webkit-animation: fadein 10s; /* Safari and Chrome */
     -moz-animation: fadein 2s; /* Firefox */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -64,24 +65,23 @@ a.logo:hover {
 
 /* main logo including fade in effect  */
 .logo {
-    font-family: Forte;
+    font-family: Forte ;
     font-size: 85px;
     color: white;
     margin-top: 25px;
-     -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
     -moz-animation: fadein 2s; /* Firefox */
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera */
     animation: fadein 3s;
-    
 }
 
 #site_under_construction {
     color: white;
-    font-size:20px;
+    font-size: 20px;
     margin-top: 25px;
     text-align: center;
-     -webkit-animation: fadein 12s; /* Safari and Chrome */
+    -webkit-animation: fadein 12s; /* Safari and Chrome */
     -moz-animation: fadein 2s; /* Firefox */
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera */
@@ -146,138 +146,132 @@ a.logo:hover {
 }
 
 /*------------loading effect----------*/
-<style>
-.bubblingG {
-text-align: center;
-align-content:center;
-width:80px;
-height:50px;
+<style > .bubblingG {
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 50px;
 }
 
 .bubblingG span {
-display: inline-block;
-vertical-align: middle;
-width: 10px;
-height: 10px;
-margin: 25px auto;
-background: #B8B2B8;
--moz-border-radius: 50px;
--moz-animation: bubblingG 1.3s infinite alternate;
--webkit-border-radius: 50px;
--webkit-animation: bubblingG 1.3s infinite alternate;
--ms-border-radius: 50px;
--ms-animation: bubblingG 1.3s infinite alternate;
--o-border-radius: 50px;
--o-animation: bubblingG 1.3s infinite alternate;
-border-radius: 50px;
-animation: bubblingG 1.3s infinite alternate;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin: 25px auto;
+    background: #B8B2B8;
+    -moz-border-radius: 50px;
+    -moz-animation: bubblingG 1.3s infinite alternate;
+    -webkit-border-radius: 50px;
+    -webkit-animation: bubblingG 1.3s infinite alternate;
+    -ms-border-radius: 50px;
+    -ms-animation: bubblingG 1.3s infinite alternate;
+    -o-border-radius: 50px;
+    -o-animation: bubblingG 1.3s infinite alternate;
+    border-radius: 50px;
+    animation: bubblingG 1.3s infinite alternate;
 }
 
 #bubblingG_1 {
--moz-animation-delay: 0s;
--webkit-animation-delay: 0s;
--ms-animation-delay: 0s;
--o-animation-delay: 0s;
-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
 }
 
 #bubblingG_2 {
--moz-animation-delay: 0.39s;
--webkit-animation-delay: 0.39s;
--ms-animation-delay: 0.39s;
--o-animation-delay: 0.39s;
-animation-delay: 0.39s;
+    -moz-animation-delay: 0.39s;
+    -webkit-animation-delay: 0.39s;
+    -ms-animation-delay: 0.39s;
+    -o-animation-delay: 0.39s;
+    animation-delay: 0.39s;
 }
 
 #bubblingG_3 {
--moz-animation-delay: 0.78s;
--webkit-animation-delay: 0.78s;
--ms-animation-delay: 0.78s;
--o-animation-delay: 0.78s;
-animation-delay: 0.78s;
+    -moz-animation-delay: 0.78s;
+    -webkit-animation-delay: 0.78s;
+    -ms-animation-delay: 0.78s;
+    -o-animation-delay: 0.78s;
+    animation-delay: 0.78s;
 }
 
 @-moz-keyframes bubblingG {
-0% {
-width: 10px;
-height: 10px;
-background-color:#B8B2B8;
--moz-transform: translateY(0);
-}
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #B8B2B8;
+        -moz-transform: translateY(0);
+    }
 
-100% {
-width: 24px;
-height: 24px;
-background-color:#FFFFFF;
--moz-transform: translateY(-21px);
-}
-
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #FFFFFF;
+        -moz-transform: translateY(-21px);
+    }
 }
 
 @-webkit-keyframes bubblingG {
-0% {
-width: 10px;
-height: 10px;
-background-color:#B8B2B8;
--webkit-transform: translateY(0);
-}
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #B8B2B8;
+        -webkit-transform: translateY(0);
+    }
 
-100% {
-width: 24px;
-height: 24px;
-background-color:#FFFFFF;
--webkit-transform: translateY(-21px);
-}
-
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #FFFFFF;
+        -webkit-transform: translateY(-21px);
+    }
 }
 
 @-ms-keyframes bubblingG {
-0% {
-width: 10px;
-height: 10px;
-background-color:#B8B2B8;
--ms-transform: translateY(0);
-}
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #B8B2B8;
+        -ms-transform: translateY(0);
+    }
 
-100% {
-width: 24px;
-height: 24px;
-background-color:#FFFFFF;
--ms-transform: translateY(-21px);
-}
-
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #FFFFFF;
+        -ms-transform: translateY(-21px);
+    }
 }
 
 @-o-keyframes bubblingG {
-0% {
-width: 10px;
-height: 10px;
-background-color:#B8B2B8;
--o-transform: translateY(0);
-}
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #B8B2B8;
+        -o-transform: translateY(0);
+    }
 
-100% {
-width: 24px;
-height: 24px;
-background-color:#FFFFFF;
--o-transform: translateY(-21px);
-}
-
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #FFFFFF;
+        -o-transform: translateY(-21px);
+    }
 }
 
 @keyframes bubblingG {
-0% {
-width: 10px;
-height: 10px;
-background-color:#B8B2B8;
-transform: translateY(0);
-}
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color: #B8B2B8;
+        transform: translateY(0);
+    }
 
-100% {
-width: 24px;
-height: 24px;
-background-color:#FFFFFF;
-transform: translateY(-21px);
-}
-
+    100% {
+        width: 24px;
+        height: 24px;
+        background-color: #FFFFFF;
+        transform: translateY(-21px);
+    }
 }
