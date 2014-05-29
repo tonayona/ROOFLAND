@@ -26,7 +26,6 @@ namespace RoofLand
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/themes/Links/demo.css",
                       "~/Content/themes/Links/component.css",
                       "~/Content/themes/Links/normalize.css"));
 
